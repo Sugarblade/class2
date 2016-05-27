@@ -4,7 +4,20 @@ body{
 header{
 	background-color: #3D9EE3;
 	border-radius: 5px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+}
+#email{
+
+	color: black;
+
+}
+#email:hover{
+	color: green;
 }
 header h1{
-	text-align: center;
-}
+
+	position: relative;
